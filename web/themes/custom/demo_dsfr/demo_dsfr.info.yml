@@ -1,0 +1,4 @@
+name: Demo DSFR
+type: theme
+core_version_requirement: ^11
+base theme: ui_suite_dsfr
