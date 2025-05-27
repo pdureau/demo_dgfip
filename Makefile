@@ -6,8 +6,8 @@ install:
 	vendor/bin/drush -y config-set system.performance css.preprocess 0
 	vendor/bin/drush -y config-set system.performance js.preprocess 0
 	vendor/bin/drush cr
-	vendor/bin/drush theme:enable demo_dsfr
-	vendor/bin/drush -y config-set system.theme default demo_dsfr
+	vendor/bin/drush theme:enable ui_suite_dsfr
+	vendor/bin/drush -y config-set system.theme default ui_suite_dsfr
 	vendor/bin/drush theme:uninstall olivero
 	
 up:
